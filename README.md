@@ -1,4 +1,4 @@
-# Document Extraction Pipeline
+# Automated Document Extraction Pipeline
 
 ## 1. Ingestion & Event Schema
 * **Source:** Cloud Object Storage (Invoices, Receipts, Forms).
