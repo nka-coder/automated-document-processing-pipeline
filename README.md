@@ -13,7 +13,7 @@
     * **Lifecycle Management:** Manages the polling loop to retrieve the structured payload once the operation status reaches `Succeeded`.
 
 ## 3. Extraction & Logic Layer
-* **Models:** Utilizes a mix of **Prebuilt Models** (for standard invoices/receipts) and **Custom Neural Models** (for proprietary business forms).
+* **Models:** Utilizes a mix of **Prebuilt Models** (for standard invoices/receipts) and **Customized Models** (for proprietary business forms).
 * **Data Validation:**
     * **Confidence Scoring:** Implements a logic gate where any extraction with a confidence score $< 0.80$ is flagged.
     * **Business Rules:** Custom Python logic validates entity integrity (e.g., date formatting, mathematical verification of line items).
